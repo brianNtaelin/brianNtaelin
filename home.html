@@ -1,6 +1,8 @@
 <html>
     <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
        <link rel="stylesheet" href="style.css" type="text/css" />
          <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -14,14 +16,10 @@
         Brian & TaeLin's Wedding
         </title>
         <link rel="stylesheet" href="css/main.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
         </head>
         <style> 
-        body{
-            background-image: url("https://scontent.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12764768_10154013951577174_5139715789611125850_o.jpg");
-       background-repeat: no-repeat;
-       background-size: 100% 100%
-        }
+        
         
         
         h2 {
@@ -124,6 +122,18 @@ div.desc {
 }
 
 
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
         </style> 
         <div class="container-fluid">
               <body class="menu">
@@ -142,7 +152,10 @@ div.desc {
       <br>
       <li><a href="http://brianntaelin.github.io/rsvp/weddingrsvp.html">RSVP</a></li> 
        
-      
+      <img src="https://scontent.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12764768_10154013951577174_5139715789611125850_o.jpg"
+     data-src-600px="image-600px.jpg"
+     data-src-800px="image-800px.jpg"
+     alt="">
             
             </ul>
             </nav>
