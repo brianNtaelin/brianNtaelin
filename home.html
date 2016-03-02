@@ -121,16 +121,14 @@ div.desc {
     text-align: center;
 }
 
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
+body {
+    background-image: url('https://scontent.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12764768_10154013951577174_5139715789611125850_o.jpg'); 
 }
 
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
+
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url('img_flowers.jpg'); 
     }
 }
 
@@ -152,10 +150,7 @@ div.desc {
       <br>
       <li><a href="http://brianntaelin.github.io/rsvp/weddingrsvp.html">RSVP</a></li> 
        
-      <img src="https://scontent.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12764768_10154013951577174_5139715789611125850_o.jpg"
-     data-src-600px="image-600px.jpg"
-     data-src-800px="image-800px.jpg"
-     alt="">
+    
             
             </ul>
             </nav>
